@@ -1,0 +1,9 @@
+[submodule "src/lib/SMBus_SmartBatt"]
+	path = src/lib/SMBus_SmartBatt
+	url = https://github.com/Chaos02/Arduino-Wire-SMBus-API
+[submodule "src/lib/InterpolationLib"]
+	path = src/lib/InterpolationLib
+	url = https://github.com/luisllamasbinaburo/Arduino-Interpolation
+[submodule "src/lib/Cooperative_Multitasking"]
+	path = src/lib/Cooperative_Multitasking
+	url = https://bitbucket.org/amotzek/cooperative-multitasking/src/master/
