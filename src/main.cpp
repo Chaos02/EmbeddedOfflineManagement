@@ -1,11 +1,13 @@
+#include <Arduino.h>
 #include <CooperativeMultitasking.h>
 
 #include <Wire.h>
 #include <InterpolationLib.h>
-#include "Types.h"
-#include "HelperFunctions.h"
-#include "SmartBattery.h"
-#include "SMBus.h"
+// private libraries
+#include <Types.h>
+#include <HelperFunctions.h>
+#include <SmartBattery.h>
+#include <SMBus.h>
 
 #define PINVin A0       // Connect between 10.7kΩ (R1) and 1.3kΩ (R2)
 #define VinR1 10700
